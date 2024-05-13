@@ -1,0 +1,44 @@
+.App {
+  background-color: rgba(255, 210, 180);
+}
+
+.company {
+  display: flex;
+  align-self: center;
+  font-size: 35px;
+  color: rgb(63, 30, 0);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 210, 180);
+}
+
+.logoimg {
+  width: 100px;
+  height: 100%;
+  padding: 10px;
+}
+
+.buttons img {
+opacity: 0.5; 
+}
+
+.buttons img:hover {
+  opacity: 1.0;
+}
+
+.buttons .btn {
+  width: 100px;
+  height: 100%;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 210, 180);
+}
