@@ -69,7 +69,7 @@ function Root() {
         </div>
         <div className="buttons">
           <Link to="/about">
-            <img src='/imgs/about.png' className='btn' alt="mabout"/>
+            <img src='/imgs/about.png' className='btn' alt="about"/>
           </Link>
           <Link to="/main">
             <img src='/imgs/main.svg' className='btn' alt="main"/>
@@ -81,9 +81,20 @@ function Root() {
       </header>
       <Outlet/>
       <footer className='footer'>
-      <Link to="/">
-        <img src={logo} className='logoimg' alt="logo"/>
-      </Link>
+      <div className="buttons">
+          <Link to="https://www.youtube.com/">
+            <img src='/imgs/youtube.png' className='btnf' alt="?"/>
+          </Link>
+          <Link to="https://www.vk.com/">
+            <img src='/imgs/vk.png' className='btnf' alt="?"/>
+          </Link>
+          <Link to="https://www.twitter.com/">
+            <img src='/imgs/twitter.png' className='btnf' alt="?"/>
+          </Link>
+          <Link to="https://www.whatsapp.com/">
+            <img src='/imgs/whatsapp.png' className='btnf' alt="?"/>
+          </Link>
+        </div>
       </footer>
       </div>
     </>

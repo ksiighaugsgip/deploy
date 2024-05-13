@@ -42,3 +42,8 @@ opacity: 0.5;
   align-items: center;
   background-color: rgb(255, 210, 180);
 }
+
+.footer .btnf {
+  height: 100%;
+  margin-left: 10px;
+}

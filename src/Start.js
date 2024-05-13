@@ -20,9 +20,13 @@ function Start() {
                     <p>Присоединяйтесь к нам сегодня и окунитесь в мир ароматного и качественного кофе!</p>
                 </div>
             </div>
+            <div className="full-screen-image">
+                <h2>Наши кофейни в Санкт-Петербурге</h2>
+                <img className="map"src="/imgs/map.png" alt="?" />
+            </div>
             <div className="buy">
                 <Link to="/main">
-                    <button className='buybtnstart'>Купить кофе</button>
+                    <button className='buybtnstart'>Купить наш кофе!</button>
                 </Link>
             </div>
         </div>

@@ -12,6 +12,10 @@
     width: 100%;
   }
   
+  .full-screen-image .map {
+    width: 90%
+  }
+
   .content-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
